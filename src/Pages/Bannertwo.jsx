@@ -85,7 +85,7 @@ const Bannertwo = () => {
 
 
             <div>
-                <div className='boull max-sm:ps-8'>
+                <div className='boull max-sm:ps-6'>
                     <img src={mobilescreen} alt="" />
                 </div>
             </div>
