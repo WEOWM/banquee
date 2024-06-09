@@ -5,6 +5,8 @@ import Bannertwo from '../Pages/Bannertwo'
 import Paymentdetails from '../Pages/Paymentdetails'
 import Organize from '../Pages/Organize'
 import Staynotified from '../Pages/Staynotified'
+import Toolpage from '../Pages/Toolpage'
+import Pcards from '../Pages/Pcards'
 
 const Home = () => {
   return (
@@ -15,13 +17,22 @@ const Home = () => {
         <Bannertwo />
       </section>
       <section>
-        <Paymentdetails/>
+        <Paymentdetails />
       </section>
       <section>
-        <Organize/>
+        <Organize />
       </section>
       <section>
-        <Staynotified/>
+        <Staynotified />
+      </section>
+      <section>
+        <Toolpage />
+      </section>
+      <section>
+        <hr className='relative top-10' />
+      </section>
+      <section>
+       <Pcards/>
       </section>
     </div>
   )

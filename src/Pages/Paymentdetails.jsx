@@ -199,6 +199,366 @@ const Paymentdetails = () => {
             dep: 'Shopping',
             price: '-200€',
         },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
+        {
+            title: 'Apple',
+            dep: 'Macbook',
+            price: '-999€',
+        },
+        {
+            title: 'Amazon',
+            dep: 'Electronics',
+            price: '-49€',
+        },
+        {
+            title: 'Twitter',
+            dep: 'Ads',
+            price: '-29€',
+        },
+        {
+            title: 'Microsoft',
+            dep: 'Office Suite',
+            price: '-149€',
+        },
+        {
+            title: 'Dropbox',
+            dep: 'Cloud',
+            price: '-14€',
+        },
+        {
+            title: 'Paypal',
+            dep: 'Shopping',
+            price: '-200€',
+        },
         
     ];
 
