@@ -10,6 +10,7 @@ import Pcards from '../Pages/Pcards'
 import Footer from '../Pages/Footer'
 import CustomerReview from '../Pages/CustomerReview'
 import Mainbanner from '../Pages/Mainbanner'
+import FAQ from '../Pages/FAQ'
 
 const Home = () => {
   return (
@@ -42,6 +43,9 @@ const Home = () => {
       </section>
       <section className='relative top-80 md:p-12 '>
         <Mainbanner/>
+      </section>
+      <section className='relative top-80'>
+        <FAQ/>
       </section>
       <footer>
         <Footer/>
