@@ -3,6 +3,8 @@ import Header from '../Component/Header'
 import Banner from '../Pages/Banner'
 import Bannertwo from '../Pages/Bannertwo'
 import Paymentdetails from '../Pages/Paymentdetails'
+import Organize from '../Pages/Organize'
+import Staynotified from '../Pages/Staynotified'
 
 const Home = () => {
   return (
@@ -14,6 +16,12 @@ const Home = () => {
       </section>
       <section>
         <Paymentdetails/>
+      </section>
+      <section>
+        <Organize/>
+      </section>
+      <section>
+        <Staynotified/>
       </section>
     </div>
   )

@@ -5,7 +5,7 @@ import banquee from "../assets/Logo/banquee..svg";
 const Header = () => {
     return (
         <div>
-            <div className="w-full h-20  flex justify-around items-center shadow-md">
+            <div className="w-full h-20  md:flex justify-around items-center shadow-md hidden">
                 <div>
                     <img className="animate-bounce" src={banquee} alt="" srcset="" />
                 </div>
