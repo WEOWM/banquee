@@ -7,6 +7,7 @@ import Organize from '../Pages/Organize'
 import Staynotified from '../Pages/Staynotified'
 import Toolpage from '../Pages/Toolpage'
 import Pcards from '../Pages/Pcards'
+import Footer from '../Pages/Footer'
 
 const Home = () => {
   return (
@@ -34,6 +35,10 @@ const Home = () => {
       <section>
        <Pcards/>
       </section>
+      <footer>
+        <Footer/>
+      </footer>
+      
     </div>
   )
 }
