@@ -31,7 +31,7 @@ const Toolpage = () => {
     return (
 
 
-        <div className='p-20 '>
+        <div className='md:p-20 '>
             <div className='grid grid-cols-1'>
                 <div className='flex flex-wrap gap-5'>
                     <img src={logo33} alt="logo33" className='w-1/4 md:w-auto' />
@@ -51,10 +51,10 @@ const Toolpage = () => {
             </div>
             <div className='grid grid-cols-2 max-sm:grid-cols-1'>
                 <div className='flex flex-col mt-3'>
-                    <span className='text-[18px] font-medium'>Tools</span>
-                    <span className='text-[60px] font-semibold'>Seemless</span>
-                    <span className='text-[60px] font-semibold'>integration</span>
-                    <span className='md:w-[539px] font-semibold mt-3'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</span>
+                    <span className='md:text-[18px] text-[30px]  font-medium'>Tools</span>
+                    <span className='md:text-[60px] text-[30px] font-semibold'>Seemless</span>
+                    <span className='md:text-[60px] text-[30px] font-semibold'>integration</span>
+                    <span className='md:w-[539px] text-[20px] font-semibold mt-3'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</span>
                 </div>
 
                 <div className='place-content-center md:mt-36 mt-4'>

@@ -8,6 +8,7 @@ import Staynotified from '../Pages/Staynotified'
 import Toolpage from '../Pages/Toolpage'
 import Pcards from '../Pages/Pcards'
 import Footer from '../Pages/Footer'
+import CustomerReview from '../Pages/CustomerReview'
 
 const Home = () => {
   return (
@@ -34,6 +35,9 @@ const Home = () => {
       </section>
       <section>
        <Pcards/>
+      </section>
+      <section className='relative top-80'>
+        <CustomerReview/>
       </section>
       <footer>
         <Footer/>

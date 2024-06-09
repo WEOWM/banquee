@@ -224,7 +224,7 @@ const Staynotified = () => {
         return () => clearInterval(interval);
     }, []);
     return (
-        <div className='grid grid-cols-2 max-sm:grid-cols-1 p-10'>
+        <div className='grid grid-cols-2 max-sm:grid-cols-1 md:p-10'>
             <div className='p-10'>
                 <div className='flex flex-col'>
                     <span className='text-[18px] font-medium'>Notifications</span>

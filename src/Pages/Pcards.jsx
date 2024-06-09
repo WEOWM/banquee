@@ -7,11 +7,11 @@ const Pcards = () => {
     return (
         <div className='grid grid-cols-1 place-content-center place-items-center mt-10'>
             <div className='flex flex-col items-center h-[518px] mt-5'>
-                <span className='font-medium'>Account</span>
-                <span className='text-[40px] font-medium'>Perfect card for your needs.</span>
+                <span className='font-semibold'>Account</span>
+                <span className='md:text-[40px] text-[35px] font-bold'>Perfect card for your needs.</span>
                 
-                <span className='text-[17px] font-light'>Senectus et netus et malesuada fames ac turpis.</span>
-                <span className='text-[17px] font-light'>Sagittis vitae et leo duis ut diam.</span>
+                <span className='text-[17px] font-semibold'>Senectus et netus et malesuada fames ac turpis.</span>
+                <span className='text-[17px] font-semibold'>Sagittis vitae et leo duis ut diam.</span>
 
                 <div className='mt-5 relative top-[5rem]'>
                     <img className='relative hover:translate-y-[-2rem] transition-transform duration-300 ease-in-out' src={card3} alt="card3" />

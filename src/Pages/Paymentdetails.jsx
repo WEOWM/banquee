@@ -588,7 +588,7 @@ const Paymentdetails = () => {
             <div className='grid grid-cols-1 md:grid-cols-2'>
                 <div className='p-10 md:p-20'>
                     <div>
-                        <span className='text-[40px] font-medium'>Send & receive <br /> money instantly</span>
+                        <span className='md:text-[40px] text-[30px] font-bold'>Send & receive <br /> money instantly</span>
                     </div>
                     <div className='mt-5'>
                         <span className='font-medium text-[20px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</span>
