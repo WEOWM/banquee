@@ -9,6 +9,7 @@ import Toolpage from '../Pages/Toolpage'
 import Pcards from '../Pages/Pcards'
 import Footer from '../Pages/Footer'
 import CustomerReview from '../Pages/CustomerReview'
+import Mainbanner from '../Pages/Mainbanner'
 
 const Home = () => {
   return (
@@ -38,6 +39,9 @@ const Home = () => {
       </section>
       <section className='relative top-80'>
         <CustomerReview/>
+      </section>
+      <section className='relative top-80 md:p-12 '>
+        <Mainbanner/>
       </section>
       <footer>
         <Footer/>

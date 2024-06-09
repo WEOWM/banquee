@@ -10,7 +10,7 @@
     }
     50% {
         transform: none;
-        animation-timing-function: cubic-bezier(0, 0, 0, 1);
+        animation-timing-function: cubic-bezier(0, 0, 0, 0);
     }
 }
 .boull {
@@ -29,4 +29,36 @@
 .hover-cards:hover img:nth-child(3) {
     transform: translateY(-6rem);
 }
+
+@keyframes boun {
+    0%, 100% {
+        transform: translateY(5%);
+        animation-timing-function: cubic-bezier(0.0, 0, 1, 1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0, 0, 0, 0);
+    }
+}
+.boun {
+    animation: boun 5s infinite;
+}
+
+
+.hover-cards:hover img:nth-child(1) {
+    transform: translateY(-2rem);
+}
+
+.hover-cards:hover img:nth-child(2) {
+    transform: translateY(-4rem);
+}
+
+.hover-cards:hover img:nth-child(3) {
+    transform: translateY(-6rem);
+}
+
+
+
+
+
 
