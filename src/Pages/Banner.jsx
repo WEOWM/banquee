@@ -34,11 +34,11 @@ const Banner = () => {
                         <span className='md:text-[60px]  text-[20px] font-bold'>All in one card.</span>
                         <span className='md:text-[18px] text-[13px] font-bold'>Senectus et netus et malesuada fames ac turpis. </span>
                         <span className='md:text-[15px] text-[20px] font-bold'>Sagittis vitae et leo duis ut diam.</span>
-                        <div className='flex gap-3 pt-2'>
+                        <div className='flex justify-normal items-center  gap-3 pt-2'>
                             <button className="px-6 h-[39px] bg-[#5BB5A2] rounded-md text-white mt-4">
                                 Open Account
                             </button>
-                            <div className='flex justify-center items-center gap-3'>
+                            <div className='flex justify-cente mt-3 items-center gap-3'>
                                 <span className='text-[#5BB5A2]'>Compare Cards</span>
                                 <span className='pt-1 text-[#5BB5A2]'><FaLongArrowAltRight /></span>
                             </div>
