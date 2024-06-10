@@ -54,7 +54,7 @@ const Bannertwo = () => {
                                 card.map((item) => {
                                     return (
                                         <div>
-                                            <div className='h-auto  border border-gray-200 md:p-10 p-3 rounded-lg'>
+                                            <div className='h-auto  border border-gray-200 md:p-10 p-2 rounded-lg'>
                                                 <div>
                                                     <div className='w-10 h-10 rounded-full bg-[#E8E8E8] flex justify-center items-center'>
                                                         <img src={item.img} alt="" />

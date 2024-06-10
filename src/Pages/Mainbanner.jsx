@@ -57,7 +57,7 @@ const Mainbanner = () => {
                     </div>
                 </div>
 
-                <div className='mt-10 relative top-10 '>
+                <div className='mt-10 relative top-11 '>
                     <img className='boun' src={ms} alt="" />
                 </div>
 
