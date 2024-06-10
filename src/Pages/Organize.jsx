@@ -47,7 +47,7 @@ const Organize = () => {
                 <span className='md:text-[12px]'>Saving Accounts</span>
                 <span className='md:text-[60px] font-bold md:w-[620px] '>Organize your money the right way</span>
                 <div className=' flex justify-between'>
-                    <span className='md:text-[20px] font-bold md:w-[610px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    <span className='md:text-[20px] font-bold md:w-[610px] w-[380px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
                     <div className='flex items-center gap-2'>
                         <span className='text-[#5BB5A2] max-sm:text-[10px]'>All Features</span>
                         <span className='pt-1 text-[#5BB5A2]'><FaLongArrowAltRight /></span>
@@ -55,7 +55,7 @@ const Organize = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-5 md:p-10 max-sm:grid-cols-2 gap-2'>
+            <div className='grid grid-cols-5 md:p-10 max-sm:grid-cols-2 gap-2 mt-2'>
                 {
                     card.map((item) => {
                         return (
@@ -66,7 +66,7 @@ const Organize = () => {
                                 </div>
                                 <div className='flex flex-col'>
                                     <span className='text-[18px] font-medium'>{item?.tit}</span>
-                                    <span className='text-[13px] text-[#1A191E]'>{item?.price}</span>
+                                    <span className='text-[13px] text-[#1A191E] font-semibold'>{item?.price}</span>
                                 </div>
                             </div>
                             

@@ -45,7 +45,7 @@ const FAQ = () => {
 
     return (
         <div className='grid grid-cols-2 max-sm:grid-cols-1 md:p-10'>
-            <div className='p-10'>
+            <div className='p-10 '>
                 <span className='text-4xl font-bold mb-6'>Need help?</span>
                 {
                     data.map((item) => {

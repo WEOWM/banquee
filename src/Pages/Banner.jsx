@@ -26,9 +26,9 @@ const Banner = () => {
         },
     ]
     return (
-        <div className='w-full h-[49rem]  bg-[#E8F2EE] grid grid-cols-1'>
+        <div className='w-full md:h-[49rem] h-[30rem]  bg-[#E8F2EE] grid grid-cols-1'>
             <div className='flex justify-center relative top-32'>
-                <div className=' md:w-[40%] h-[20rem]'>
+                <div className=' md:w-[40%] md:h-[20rem]'>
                     <div className='flex flex-col relative top-10 items-center'>
                         <span className='text-[15px] font-bold'>Features</span>
                         <span className='text-[60px] font-bold'>All in one card.</span>
