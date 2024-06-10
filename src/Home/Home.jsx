@@ -36,7 +36,7 @@ const Home = () => {
       <section>
         <hr className='relative top-10' />
       </section>
-      <section>
+      <section >
        <Pcards/>
       </section>
       <section className='relative top-80'>
