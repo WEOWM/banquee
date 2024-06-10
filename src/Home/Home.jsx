@@ -11,6 +11,7 @@ import Footer from '../Pages/Footer'
 import CustomerReview from '../Pages/CustomerReview'
 import Mainbanner from '../Pages/Mainbanner'
 import FAQ from '../Pages/FAQ'
+import Blog from '../Pages/Blog'
 
 const Home = () => {
   return (
@@ -46,6 +47,9 @@ const Home = () => {
       </section>
       <section className='relative top-80'>
         <FAQ/>
+      </section>
+      <section className='relative top-80 md:p-12'>
+        <Blog/>
       </section>
       <footer>
         <Footer/>
