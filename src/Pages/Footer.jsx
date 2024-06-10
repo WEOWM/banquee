@@ -19,9 +19,9 @@ const Footer = () => {
         },
     ]
     return (
-        <div className='relative top-[22rem]'>
+        <div className='relative top-[22rem] ps-4'>
             <hr />
-            <div className='md:p-20 p-3  '>
+            <div className='md:p-20 p-5  '>
                 <div className='grid grid-cols-5 max-sm:grid-cols-2 gap-9 md:h-[131px]'>
                     <div className='hidden md:flex'>
                         <img className='animate-bounce ' src={logo} alt="" />
