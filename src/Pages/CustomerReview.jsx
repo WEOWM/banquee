@@ -65,21 +65,21 @@ const CustomerReview = () => {
 
             <div className='grid grid-cols-3 max-sm:grid-cols-2 gap-4  mt-4 p-1'>
                 {data.map((item, index) => (
-                    <div key={index} className='border border-gray-300 rounded-lg md:w-[314.67px] md:p-4 p-2 md:h-[380px]' style={{ height: item?.hight }}>
+                    <div key={index} className='border border-gray-300 rounded-lg md:w-[314.67px] md:p-4 p-2 md:h-[380px]' >
                         <div>
                             <img src={rating} alt="" />
                         </div>
                         <div>
-                            <div className='mt-3'>
-                                <span className='font-semibold md:text-[26px]'>{item.title}</span>
+                            <div className='md:mt-3'>
+                                <span className='font-semibold md:text-[26px] text-[13px] '>{item.title}</span>
                             </div>
-                            <div className='mt-3'>
-                                <span className='font-medium'>{item.dep}</span>
+                            <div className='md:mt-3'>
+                                <span className='font-medium text-[10px]'>{item.dep}</span>
                             </div>
-                            <div className='mt-3'>
+                            <div className='md:mt-3'>
                                 <span className='font-medium max-sm:hidden'>{item?.dep1}</span>
                             </div>
-                            <div className='flex flex-col mt-5'>
+                            <div className='flex flex-col mt-5 text-[10px]'>
                                 <span className='font-bold'>{item.name}</span>
                                 <span className='font-bold text-gray-600'>{item.work}</span>
                             </div>
