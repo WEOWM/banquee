@@ -34,24 +34,24 @@ const Home = () => {
         <Toolpage />
       </section>
       <section>
-        <hr className='relative top-10' />
+        <hr className='relative md:top-10' />
       </section>
       <section >
        <Pcards/>
       </section>
-      <section className='relative top-80'>
+      <section className='relative md:top-80 top-16'>
         <CustomerReview/>
       </section>
-      <section className='relative top-80 md:p-12 '>
+      <section className='relative md:top-80 top-20 md:p-12 '>
         <Mainbanner/>
       </section>
-      <section className='relative top-80'>
+      <section className='relative md:top-80 top-20'>
         <FAQ/>
       </section>
-      <section className='relative top-80 md:p-12 '>
+      <section className='relative md:top-80 top-20 md:p-12 '>
         <Blog/>
       </section>
-      <footer>
+      <footer className='relative max-sm:bottom-64'>
         <Footer/>
       </footer>
       

@@ -51,7 +51,7 @@ const Mainbanner = () => {
 
                     </div>
 
-                    <div className='flex gap-3 relative md:bottom-20 md:left-28 max-sm:top-5'>
+                    <div className='flex gap-3 relative md:bottom-20 md:left-28 right-6 max-sm:top-5'>
                         <img className='cursor-pointer' src={b1} alt="" />
                         <img className='cursor-pointer' src={b2} alt="" />
                     </div>
