@@ -24,7 +24,7 @@ const Footer = () => {
             <div className='md:p-20 p-5  '>
                 <div className='grid grid-cols-5 max-sm:grid-cols-2 gap-9 md:h-[131px]'>
                     <div className='hidden md:flex'>
-                        <img className='animate-bounce ' src={logo} alt="" />
+                        <img className='animate-bounce h-8' src={logo} alt="" />
                     </div>
 
                     <div className='flex flex-col '>

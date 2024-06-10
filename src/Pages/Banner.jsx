@@ -49,8 +49,8 @@ const Banner = () => {
 
             </div>
 
-            <div className='relative top-30 hidden md:flex  '   >
-                <div className='relative  top-[4rem] flex gap-7  justify-around md:flex    '>
+            <div className='relative top-31 hidden md:flex  '   >
+                <div className='relative  top-[4.2rem] flex gap-7  justify-around md:flex    '>
                     <div>
                         <img className='relative  top-[12rem]' src={card} alt="" />
                     </div>
