@@ -48,7 +48,7 @@ const Home = () => {
       <section className='relative top-80'>
         <FAQ/>
       </section>
-      <section className='relative top-80 md:p-12'>
+      <section className='relative top-80 md:p-12 '>
         <Blog/>
       </section>
       <footer>

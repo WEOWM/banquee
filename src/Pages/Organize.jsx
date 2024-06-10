@@ -42,12 +42,12 @@ const Organize = () => {
         },
     ]
     return (
-        <div className='grid grid-cols-1 max-sm:mt-[30rem] p-2'>
-            <div className='flex flex-col md:p-10'>
+        <div className='grid grid-cols-1 max-sm:mt-[30rem]  p-3'>
+            <div className='flex flex-col md:p-10 '>
                 <span className='md:text-[12px]'>Saving Accounts</span>
-                <span className='md:text-[60px] font-bold md:w-[620px] '>Organize your money the right way</span>
+                <span className='md:text-[60px]  font-bold md:w-[620px] '>Organize your money the right way</span>
                 <div className=' flex justify-between'>
-                    <span className='md:text-[20px] font-bold md:w-[610px] w-[380px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    <span className='md:text-[20px] text-[10px] font-bold md:w-[610px] w-[280px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
                     <div className='flex items-center gap-2'>
                         <span className='text-[#5BB5A2] max-sm:text-[10px]'>All Features</span>
                         <span className='pt-1 text-[#5BB5A2]'><FaLongArrowAltRight /></span>
@@ -60,7 +60,7 @@ const Organize = () => {
                     card.map((item) => {
                         return (
                             <div className='' >
-                                <div className='w-[214px] h-[214px] flex justify-center items-center rounded-lg' style={{ backgroundColor: item.color }}>
+                                <div className='md:w-[214px] h-[214px] flex justify-center items-center rounded-lg' style={{ backgroundColor: item.color }}>
                                     <img src={item.img} alt="" />
 
                                 </div>

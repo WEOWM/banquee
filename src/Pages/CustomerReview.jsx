@@ -32,7 +32,7 @@ const CustomerReview = () => {
         },
         {
             title: "Donec et fringilla neque",
-            dep: "Etiam accumsan porta neque in viverra. Proin eleifend, eros in tristique hendrerit, nisi purus cursus sapien, id ultrices nunc tellus a ipsum. Donec et fringilla neque. Aenean consequat purus quis lectus maximus fermentum.",
+            dep: "Etiam accumsan porta neque in viverra. Proin eleifend,  nisi purus cursus sapien, id ultrices nunc tellus a ipsum. Donec et fringilla neque. Aenean consequat purus quis lectus maximus fermentum.",
             name: "Darlene Robertson",
             work: "Dog Trainer",
             hight:"430px"
@@ -46,11 +46,11 @@ const CustomerReview = () => {
     ]
 
     return (
-        <div className='md:p-20 mt-10'>
+        <div className='md:p-20 mt-10 p-1'>
             <div className='flex justify-between'>
                 <div className='flex flex-col md:w-[680px]'>
                     <span className='font-bold text-[16px]'>Testimonials</span>
-                    <span className='font-bold md:text-[70px] text-[23px] '>People all over the world use banko.</span>
+                    <span className='font-bold md:text-[70px] text-[22px] '>People all over the world use banko.</span>
                 </div>
 
                 <div className='md:flex justify-center items-center gap-4 mt-10 hidden '>
@@ -63,9 +63,9 @@ const CustomerReview = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-3 max-sm:grid-cols-2 gap-4 '>
+            <div className='grid grid-cols-3 max-sm:grid-cols-2 gap-4  mt-4 p-1'>
                 {data.map((item, index) => (
-                    <div key={index} className='border border-gray-300 rounded-lg md:w-[314.67px] md:p-4 p-1 md:h-[380px]' style={{ height: item.hight }}>
+                    <div key={index} className='border border-gray-300 rounded-lg md:w-[314.67px] md:p-4 p-2 md:h-[380px]' style={{ height: item?.hight }}>
                         <div>
                             <img src={rating} alt="" />
                         </div>
@@ -77,7 +77,7 @@ const CustomerReview = () => {
                                 <span className='font-medium'>{item.dep}</span>
                             </div>
                             <div className='mt-3'>
-                                <span className='font-medium'>{item?.dep1}</span>
+                                <span className='font-medium max-sm:hidden'>{item?.dep1}</span>
                             </div>
                             <div className='flex flex-col mt-5'>
                                 <span className='font-bold'>{item.name}</span>

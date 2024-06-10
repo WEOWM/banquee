@@ -225,11 +225,11 @@ const Staynotified = () => {
     }, []);
     return (
         <div className='grid grid-cols-2 max-sm:grid-cols-1 md:p-10'>
-            <div className='p-10'>
+            <div className='md:p-10 p-2'>
                 <div className='flex flex-col'>
                     <span className='text-[18px] font-medium'>Notifications</span>
-                    <span className='text-[60px] font-medium'>Stay notified</span>
-                    <span className='text-[19px] md:w-[538px] font-medium '>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
+                    <span className='md:text-[60px] text-[50px] font-medium'>Stay notified</span>
+                    <span className='md:text-[19px]  md:w-[538px] font-medium '>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
                 </div>
                 <div>
                     <div>

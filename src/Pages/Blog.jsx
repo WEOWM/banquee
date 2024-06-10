@@ -28,7 +28,7 @@ const Blog = () => {
     ]
     return (
         <div>
-            <div className='flex justify-between p-1' >
+            <div className='flex justify-between p-4' >
                 <span className='text-3xl font-bold'>Blog</span>
                 <span className='flex items-center gap-2  text-[#5BB5A2] text-[12px]'>All Articles<span className='pt-1 text-[#5BB5A2]'></span ><FaLongArrowAltRight /></span>
             </div>
@@ -37,7 +37,7 @@ const Blog = () => {
                     cards.map((item) => {
                         return (
                             <div>
-                                <div className='  p-4 '>
+                                <div className='  p-2 '>
                                     <div>
                                         <img className=' rounded-lg' src={item.img} alt="" />
                                     </div>

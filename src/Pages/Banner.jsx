@@ -30,12 +30,12 @@ const Banner = () => {
             <div className='flex justify-center relative top-32'>
                 <div className=' md:w-[40%] md:h-[20rem]'>
                     <div className='flex flex-col relative top-10 items-center'>
-                        <span className='text-[15px] font-bold'>Features</span>
-                        <span className='text-[60px] font-bold'>All in one card.</span>
-                        <span className='text-[18px]'>Senectus et netus et malesuada fames ac turpis. </span>
-                        <span className='text-[15px]'>Sagittis vitae et leo duis ut diam.</span>
+                        <span className='text-[15px]  font-bold'>Features</span>
+                        <span className='md:text-[60px]  text-[20px] font-bold'>All in one card.</span>
+                        <span className='md:text-[18px] text-[13px] font-bold'>Senectus et netus et malesuada fames ac turpis. </span>
+                        <span className='md:text-[15px] text-[20px] font-bold'>Sagittis vitae et leo duis ut diam.</span>
                         <div className='flex gap-3 pt-2'>
-                            <button className="px-6 h-[39px] bg-[#5BB5A2] rounded-md text-white">
+                            <button className="px-6 h-[39px] bg-[#5BB5A2] rounded-md text-white mt-4">
                                 Open Account
                             </button>
                             <div className='flex justify-center items-center gap-3'>

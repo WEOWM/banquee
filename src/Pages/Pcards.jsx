@@ -5,7 +5,7 @@ import card3 from '../assets/pCards/card.png';
 
 const Pcards = () => {
     return (
-        <div className='grid grid-cols-1 place-content-center place-items-center mt-10'>
+        <div className='grid grid-cols-1 place-content-center place-items-center mt-10 p-1'>
             <div className='flex flex-col items-center h-[518px] mt-5'>
                 <span className='font-semibold'>Account</span>
                 <span className='md:text-[40px] text-[35px] font-bold'>Perfect card for your needs.</span>

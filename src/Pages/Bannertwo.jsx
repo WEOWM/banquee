@@ -45,8 +45,8 @@ const Bannertwo = () => {
             <div>
                 <div className=''>
                     <div className='flex flex-col'>
-                        <span className='text-[60px] font-medium'>One app.</span>
-                        <span className='text-[60px] font-bold'>One banking.</span>
+                        <span className='md:text-[60px] text-[40px] font-medium'>One app.</span>
+                        <span className='md:text-[60px] text-[40px] font-bold'>One banking.</span>
                     </div>
                     <div className=''>
                         <div className='grid grid-cols-2 gap-2'>
@@ -57,7 +57,7 @@ const Bannertwo = () => {
                                             <div className='h-auto  border border-gray-200 md:p-10 p-2 rounded-lg'>
                                                 <div>
                                                     <div className='w-10 h-10 rounded-full bg-[#E8E8E8] flex justify-center items-center'>
-                                                        <img src={item.img} alt="" />
+                                                        <img  src={item.img} alt="" />
                                                     </div>
                                                 </div>
 
@@ -85,7 +85,7 @@ const Bannertwo = () => {
 
 
             <div>
-                <div className='boull max-sm:ps-6'>
+                <div className='boull'>
                     <img src={mobilescreen} alt="" />
                 </div>
             </div>

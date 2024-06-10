@@ -29,11 +29,11 @@ const Mainbanner = () => {
             <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-5 place-content-center place-items-center p-10'>
                 <div>
                     <div className='flex flex-col text-white'>
-                        <span className='text-[60px] font-medium'>One app.</span>
-                        <span className='text-[60px] font-bold'>One banking.</span>
+                        <span className='md:text-[60px] text-[40px] font-medium'>One app.</span>
+                        <span className='md:text-[60px] text-[45px]  font-bold'>One banking.</span>
                     </div>
                     <div>
-                        <span className='text-[20px] font-bold text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</span>
+                        <span className='md:text-[20px] font-bold text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</span>
                     </div>
                     <div className='relative md:bottom-28'>
                         <div className='place-content-cente grid grid-cols-2 max-sm:grid-cols-1 md:mt-36 mt-4'>

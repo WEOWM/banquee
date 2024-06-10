@@ -19,7 +19,7 @@ const Header = () => {
             <div className="w-full h-20 shadow-md">
                 <div className="w-full h-20 md:flex justify-around items-center hidden">
                     <div>
-                        <img className="animate-bounce" src={banquee} alt="" srcset="" />
+                        <img className="" src={banquee} alt="" srcset="" />
                     </div>
 
                     <div className="flex gap-4 font-semibold">
@@ -51,10 +51,10 @@ const Header = () => {
                 {/* MOBILE */}
                 <div className="w-full h-20 flex items-center justify-between px-4 lg:hidden">
                     <div className="h-20 flex items-center justify-center pl-4">
-                        <img className="animate-bounce" src={banquee} alt="" srcset="" />
+                        <img className="" src={banquee} alt="" srcset="" />
                     </div>
                     <div>
-                        <GiHamburgerMenu onClick={toggleDrawer} size={20} color="#5BB5A2" className="cursor-pointer" />
+                        <GiHamburgerMenu onClick={toggleDrawer} size={35} color="#5BB5A2" className="cursor-pointer" />
                     </div>
                 </div>
             </div>
