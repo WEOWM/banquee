@@ -30,7 +30,7 @@ const Banner = () => {
             <div className='flex justify-center relative top-32'>
                 <div className=' md:w-[40%] md:h-[20rem]'>
                     <div className='flex flex-col relative top-10 items-center'>
-                        <span className='text-[15px]  font-bold'>Features</span>
+                        <span className='text-[15px] md:text-[25px] font-bold'>Features</span>
                         <span className='md:text-[60px]  text-[20px] font-bold'>All in one card.</span>
                         <span className='md:text-[18px] text-[13px] font-bold'>Senectus et netus et malesuada fames ac turpis. </span>
                         <span className='md:text-[15px] text-[20px] font-bold'>Sagittis vitae et leo duis ut diam.</span>
