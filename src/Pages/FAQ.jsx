@@ -71,7 +71,7 @@ const FAQ = () => {
 
             <div>
                 <div className='md:p-10 p-3'>
-                    <h2 className='text-3xl font-bold mb-6 '>Frequently Asked Questions</h2>
+                    <h2 className='md:text-3xl text-[25px] font-bold mb-6 '>Frequently Asked Questions</h2>
                     <div className='space-y-4'>
                         {faqs.map((faq, index) => (
                             <div key={index} className='border border-gray-300 rounded-lg p-4'>

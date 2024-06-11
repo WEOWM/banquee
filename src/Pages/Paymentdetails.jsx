@@ -6,15 +6,15 @@ import { RiAppleFill } from 'react-icons/ri';
 const Paymentdetails = () => {
     const data = [
         {
-            img:titick ,
+            img: titick,
             title: 'Malesuada Ipsum',
         },
         {
-            img:titick ,
+            img: titick,
             title: 'Vestibulum',
         },
         {
-            img:titick ,
+            img: titick,
             title: 'Parturient Lorem',
         },
     ];
@@ -560,7 +560,7 @@ const Paymentdetails = () => {
             dep: 'Shopping',
             price: '-200€',
         },
-        
+
     ];
 
     const containerRef = useRef(null);
@@ -598,7 +598,7 @@ const Paymentdetails = () => {
                         {data.map((item, index) => (
                             <div key={index} className='flex items-center gap-5 max-sm:mt-3'>
                                 <div className='w-10 h-10 bg-[#5BB5A2] flex justify-center items-center rounded-full mt-1'>
-                                   <img src={titick} alt="" />
+                                    <img src={titick} alt="" />
                                 </div>
                                 <span className='font-medium '>{item.title}</span>
                             </div>
@@ -610,8 +610,10 @@ const Paymentdetails = () => {
                     <div ref={containerRef} className='md:w-[500px] w-full h-[29.2rem]  flex flex-col gap-1 overflow-hidden'>
                         {data2.map((item, index) => (
                             <div key={index} className='w-full h-[83px] bg-white flex rounded-lg  justify-around items-center p-3  '>
-                                <div className='w-[50px] h-[50px] rounded-md bg-[#5BB5A2] flex justify-center items-center'>
-                                    <RiAppleFill size={30} color='white' />
+                                <div className='flex justify-start'>
+                                    <div className='w-[50px] h-[50px] rounded-md bg-[#5BB5A2] flex justify-center items-center'>
+                                        <RiAppleFill size={30} color='white' />
+                                    </div>
                                 </div>
                                 <div className='flex flex-col justify-start pe-[125px]'>
                                     <span className='text-[13px] font-medium ' >{item.title}</span>

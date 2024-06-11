@@ -51,11 +51,11 @@ const Toolpage = () => {
             </div>
             <div className='grid grid-cols-2 max-sm:grid-cols-1'>
                 <div className='flex flex-col md:mt-32 md:p-2 p-4'>
-                    <span className='md:text-[18px] text-[20px]  font-medium'>Tools</span>
+                    <span className='md:text-[18px] text-[18px]  font-medium'>Tools</span>
                     {/* <span className='md:text-[60px] text-[30px] font-semibold'>Seemless</span>
                     <span className='md:text-[60px] text-[30px] font-semibold'>integration</span> */}
-                    <span className='md:text-[58px] text-[30px]  font-semibold'> Seemless integration</span>
-                    <span className='md:w-[539px] md:text-[20px] font-semibold mt-3'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</span>
+                    <span className='md:text-[58px] text-[27px]  font-semibold'> Seemless integration</span>
+                    <span className='md:w-[539px] md:text-[20px] text-[12px] font-semibold mt-3'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</span>
                 </div>
 
                 <div className='place-content-center md:mt-36 mt-4 max-sm:p-4'>
