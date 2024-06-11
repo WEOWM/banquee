@@ -50,7 +50,7 @@ const Banner = () => {
             </div>
 
             <div className='w-full relative top-31 hidden md:flex  '   >
-                <div className='w-full relative  top-[4.2rem] flex gap-7  justify-around     '>
+                <div className='w-full relative  top-[4.2rem] flex md:gap-7  justify-between'>
                     <div>
                         <img className='relative  top-[12rem]' src={card} alt="" />
                     </div>
