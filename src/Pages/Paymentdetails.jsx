@@ -600,7 +600,7 @@ const Paymentdetails = () => {
                                 <div className='w-10 h-10 bg-[#5BB5A2] flex justify-center items-center rounded-full mt-1'>
                                    <img src={titick} alt="" />
                                 </div>
-                                <span className='font-medium'>{item.title}</span>
+                                <span className='font-medium '>{item.title}</span>
                             </div>
                         ))}
                     </div>
@@ -613,8 +613,8 @@ const Paymentdetails = () => {
                                 <div className='w-[50px] h-[50px] rounded-md bg-[#5BB5A2] flex justify-center items-center'>
                                     <RiAppleFill size={30} color='white' />
                                 </div>
-                                <div className='flex flex-col pe-48'>
-                                    <span className='text-[15px] font-medium'>{item.title}</span>
+                                <div className='flex flex-col justify-start pe-[125px]'>
+                                    <span className='text-[13px] font-medium ' >{item.title}</span>
                                     <span className='text-[11px]  text-[#1A191E]'>{item.dep}</span>
                                 </div>
                                 <div>
