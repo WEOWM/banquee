@@ -1,19 +1,20 @@
 import React, { useEffect, useRef } from 'react';
-import { TiTick } from 'react-icons/ti';
+// import { TiTick } from 'react-icons/ti';
+import titick from "../assets/tickmark/badge.svg"
 import { RiAppleFill } from 'react-icons/ri';
 
 const Paymentdetails = () => {
     const data = [
         {
-            img: <TiTick size={20} color='white' />,
+            img:titick ,
             title: 'Malesuada Ipsum',
         },
         {
-            img: <TiTick size={20} color='white' />,
+            img:titick ,
             title: 'Vestibulum',
         },
         {
-            img: <TiTick size={20} color='white' />,
+            img:titick ,
             title: 'Parturient Lorem',
         },
     ];
@@ -595,9 +596,9 @@ const Paymentdetails = () => {
                     </div>
                     <div className='mt-7 '>
                         {data.map((item, index) => (
-                            <div key={index} className='flex items-center gap-5'>
+                            <div key={index} className='flex items-center gap-5 max-sm:mt-3'>
                                 <div className='w-10 h-10 bg-[#5BB5A2] flex justify-center items-center rounded-full mt-1'>
-                                    <span >{item.img}</span>
+                                   <img src={titick} alt="" />
                                 </div>
                                 <span className='font-medium'>{item.title}</span>
                             </div>

@@ -53,8 +53,8 @@ const FAQ = () => {
                             <div className='flex items-center gap-3 mt-4 '>
                                 <img src={item.img} alt="" srcset="" />
                                 <div className=' flex flex-col'>
-                                    <span className='text-xl font-bold text-[10px]'>{item.numb}</span>
-                                    <span className='text-gray-500 font-bold text-[11px]'>{item.title}</span>
+                                    <span className='text-xl font-semibold text-[11px]'>{item.numb}</span>
+                                    <span className='text-gray-500 font-bold text-[10px]'>{item.title}</span>
                                 </div>
 
 
