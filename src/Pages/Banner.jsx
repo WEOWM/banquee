@@ -50,21 +50,21 @@ const Banner = () => {
             </div>
 
             <div className='w-full relative top-31 hidden md:flex  '   >
-                <div className='relative  top-[4.2rem] flex gap-7  justify-around md:flex    '>
+                <div className='w-full relative  top-[4.2rem] flex gap-7  justify-around     '>
                     <div>
                         <img className='relative  top-[12rem]' src={card} alt="" />
                     </div>
                     <div>
-                        <img src={card3} alt="" />
+                        <img className='w-full' src={card3} alt="" />
                     </div>
                     <div>
-                        <img src={card2} alt="" />
+                        <img className='w-full' src={card2} alt="" />
                     </div>
                     <div>
-                        <img src={card3} alt="" />
+                        <img className='w-full' src={card3} alt="" />
                     </div>
                     <div>
-                        <img src={card4} alt="" />
+                        <img className='w-full' src={card4} alt="" />
                     </div>
                     {/* {
                 cards.map((item)=>{
