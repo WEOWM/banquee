@@ -26,7 +26,7 @@ const Mainbanner = () => {
     return (
         <div className='w-full h-auto bg-[#5BB5A2] rounded-lg '>
 
-            <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-5 place-content-center place-items-center p-10'>
+            <div className='grid grid-cols-2 max-sm:grid-cols-1 gap-5 place-content-center place-items-center md:p-10 p-8'>
                 <div>
                     <div className='flex flex-col text-white'>
                         <span className='md:text-[60px] text-[40px] font-medium'>One app.</span>
@@ -51,9 +51,9 @@ const Mainbanner = () => {
 
                     </div>
 
-                    <div className='flex gap-3 relative md:bottom-20 md:left-28 right-6 max-sm:top-5'>
-                        <img className='cursor-pointer' src={b1} alt="" />
-                        <img className='cursor-pointer' src={b2} alt="" />
+                    <div className='flex gap-3 relative md:bottom-20 md:left-28  max-sm:top-5'>
+                        <img className='cursor-pointer max-sm:h-10' src={b1} alt="" />
+                        <img className='cursor-pointer max-sm:h-10' src={b2} alt="" />
                     </div>
                 </div>
 

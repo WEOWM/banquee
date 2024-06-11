@@ -229,7 +229,7 @@ const Staynotified = () => {
                 <div className='flex flex-col'>
                     <span className='text-[18px] font-medium'>Notifications</span>
                     <span className='md:text-[60px] text-[50px] font-medium'>Stay notified</span>
-                    <span className='md:text-[19px]  md:w-[538px] font-medium '>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
+                    <span className='md:text-[19px]  md:w-[538px]  font-semibold w-full'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</span>
                 </div>
                 <div>
                     <div>

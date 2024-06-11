@@ -8,10 +8,10 @@ const Pcards = () => {
         <div className='grid grid-cols-1 place-content-center place-items-center mt-10 p-1'>
             <div className='flex flex-col items-center h-[518px] mt-5'>
                 <span className='font-semibold'>Account</span>
-                <span className='md:text-[40px] text-[29px] font-bold'>Perfect card for your needs.</span>
+                <span className='md:text-[40px] text-[25px] font-bold'>Perfect card for your needs.</span>
                 
-                <span className='text-[17px] font-semibold'>Senectus et netus et malesuada fames ac turpis.</span>
-                <span className='text-[17px] font-semibold'>Sagittis vitae et leo duis ut diam.</span>
+                <span className='text-[14px] font-bold'>Senectus et netus et malesuada fames ac turpis.</span>
+                <span className='text-[15px] font-bold'>Sagittis vitae et leo duis ut diam.</span>
 
                 <div className='mt-5 relative top-[5rem]'>
                     <img className='relative hover:translate-y-[-2rem] transition-transform duration-300 ease-in-out' src={card3} alt="card3" />

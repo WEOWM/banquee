@@ -56,14 +56,14 @@ const Footer = () => {
             <hr />
           <div className='grid '>
           <div className='flex justify-between p-8 max-sm:flex-col '>
-                <div className='flex justify-center items-center md:gap-3 text-[15px]'>
+                <div className='flex justify-center items-center md:gap-3 text-[13px]'>
                     <span><LuCopyright color='gray' /></span>
                     <span className='text-gray-600 font-bold'>Made by</span>
                     <span className='text-[#5BB5A2] font-bold'>Pawel Gola</span>
                     <span className='text-gray-600 font-bold'>- Powered by</span>
                     <span className='text-[#5BB5A2] font-bold'>Webflow</span>
                 </div>
-                <div className='flex gap-5 max-sm:justify-center '>
+                <div className='flex gap-5 max-sm:justify-center text-[13px]'>
                     <span className='text-gray-600 font-bold'>Impressum</span>
                     <span className='text-gray-600 font-bold'>Datenschutz</span>
                 </div>

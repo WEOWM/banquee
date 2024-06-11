@@ -32,23 +32,23 @@ const Blog = () => {
                 <span className='text-3xl font-bold'>Blog</span>
                 <span className='flex items-center gap-2  text-[#5BB5A2] text-[12px]'>All Articles<span className='pt-1 text-[#5BB5A2]'></span ><FaLongArrowAltRight /></span>
             </div>
-            <div className='grid grid-cols-3 max-sm:grid-cols-1 max-sm:ps-4 pt-5  gap-3'>
+            <div className='grid grid-cols-3 max-sm:grid-cols-1 max-sm:ps-4 pt-5 max-sm:p-4  gap-3'>
                 {
                     cards.map((item) => {
                         return (
                             <div>
-                                <div className='  p-2 '>
+                                <div className='  md:p-2 '>
                                     <div>
                                         <img className=' rounded-lg' src={item.img} alt="" />
                                     </div>
                                     <div>
                                         <div>
-                                            <span className='text-2xl font-bold'>How To Start Using Banko For Your Startup</span>
+                                            <span className='md:text-2xl font-bold'>How To Start Using Banko For Your Startup</span>
                                         </div>
                                         <div className='pt-2 font-semibold'>
-                                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.</span>
+                                            <span className='md:text-2xl text-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.</span>
                                         </div>
-                                        <div className='flex gap-3 pt-5 font-bold'>
+                                        <div className='flex gap-3 pt-5 font-bold text-[15px]'>
                                             <span>Product</span>
                                             <span>Technology</span>
                                         </div>

@@ -47,7 +47,7 @@ const Organize = () => {
                 <span className='md:text-[12px]'>Saving Accounts</span>
                 <span className='md:text-[60px]  font-bold md:w-[620px] '>Organize your money the right way</span>
                 <div className=' flex justify-between'>
-                    <span className='md:text-[20px] text-[10px] font-bold md:w-[610px] w-[280px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
+                    <span className='md:text-[20px] text-[10px] font-bold md:w-[610px] w-[250px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
                     <div className='flex items-center gap-2'>
                         <span className='text-[#5BB5A2] max-sm:text-[10px]'>All Features</span>
                         <span className='pt-1 text-[#5BB5A2]'><FaLongArrowAltRight /></span>

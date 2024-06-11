@@ -49,8 +49,8 @@ const CustomerReview = () => {
         <div className='md:p-20 mt-10 p-1'>
             <div className='flex justify-between'>
                 <div className='flex flex-col md:w-[680px]'>
-                    <span className='font-bold text-[16px]'>Testimonials</span>
-                    <span className='font-bold md:text-[70px] text-[22px] '>People all over the world use banko.</span>
+                    <span className='font-bold text-[14px]'>Testimonials</span>
+                    <span className='font-bold md:text-[70px] text-[20px] '>People all over the world use banko.</span>
                 </div>
 
                 <div className='md:flex justify-center items-center gap-4 mt-10 hidden '>
