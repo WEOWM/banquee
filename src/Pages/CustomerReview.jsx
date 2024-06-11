@@ -74,7 +74,7 @@ const CustomerReview = () => {
                                 <span className='font-semibold md:text-[26px] text-[13px] '>{item.title}</span>
                             </div>
                             <div className='md:mt-3'>
-                                <span className='font-medium text-[10px]'>{item.dep}</span>
+                                <span className='font-medium text-[9px]'>{item.dep}</span>
                             </div>
                             <div className='md:mt-3'>
                                 <span className='font-medium max-sm:hidden'>{item?.dep1}</span>

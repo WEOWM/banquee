@@ -46,15 +46,15 @@ const FAQ = () => {
     return (
         <div className='grid grid-cols-2 max-sm:grid-cols-1 md:p-10'>
             <div className='p-10 '>
-                <span className='text-4xl font-bold mb-6'>Need help?</span>
+                <span className='md:text-4xl font-bold mb-6'>Need help?</span>
                 {
                     data.map((item) => {
                         return (
-                            <div className='flex items-center gap-3 mt-4'>
+                            <div className='flex items-center gap-3 mt-4 '>
                                 <img src={item.img} alt="" srcset="" />
                                 <div className=' flex flex-col'>
-                                    <span className='text-xl font-bold'>{item.numb}</span>
-                                    <span className='text-gray-500 font-bold'>{item.title}</span>
+                                    <span className='text-xl font-bold text-[10px]'>{item.numb}</span>
+                                    <span className='text-gray-500 font-bold text-[11px]'>{item.title}</span>
                                 </div>
 
 
@@ -63,15 +63,15 @@ const FAQ = () => {
                     })
                 }
                 <div className='flex justify-center items-center gap-3 relative md:right-60 right-24 top-10'>
-                    <span className='text-[#5BB5A2]'>Support</span>
+                    <span className='text-[#5BB5A2] max-sm:text-[13px]'>Support</span>
                     <span className='pt-1 text-[#5BB5A2]'><FaLongArrowAltRight /></span>
                 </div>
 
             </div>
 
             <div>
-                <div className='p-10'>
-                    <h2 className='text-3xl font-bold mb-6'>Frequently Asked Questions</h2>
+                <div className='md:p-10 p-3'>
+                    <h2 className='text-3xl font-bold mb-6 '>Frequently Asked Questions</h2>
                     <div className='space-y-4'>
                         {faqs.map((faq, index) => (
                             <div key={index} className='border border-gray-300 rounded-lg p-4'>
