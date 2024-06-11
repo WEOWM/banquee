@@ -12,8 +12,8 @@ const CustomerReview = () => {
         },
         {
             title: "At lectus urna duis convallis tellus",
-            dep: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
-            dep1: "In nibh mauris cursus mattis. At lectus urna duis convallis convallis tellus. Enim blandit volutpat maecenas volutpat.",
+            dep: "Lorem ipsum dolor sit amet,  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.",
+            dep1: " convallis . Enim blandit volutpat maecenas volutpat.",
             name: "Jenny Wilson",
             work: "Nursing Assistant",
             hight:"480px"
@@ -49,8 +49,8 @@ const CustomerReview = () => {
         <div className='md:p-20 mt-10 p-1'>
             <div className='flex justify-between'>
                 <div className='flex flex-col md:w-[680px]'>
-                    <span className='font-bold text-[14px]'>Testimonials</span>
-                    <span className='font-bold md:text-[70px] text-[20px] '>People all over the world use banko.</span>
+                    <span className='font-bold text-[16px]'>Testimonials</span>
+                    <span className='font-bold md:text-[70px] text-[22px] '>People all over the world use banko.</span>
                 </div>
 
                 <div className='md:flex justify-center items-center gap-4 mt-10 hidden '>
@@ -74,12 +74,12 @@ const CustomerReview = () => {
                                 <span className='font-semibold md:text-[26px] text-[13px] '>{item.title}</span>
                             </div>
                             <div className='md:mt-3'>
-                                <span className='font-medium text-[9px]'>{item.dep}</span>
+                                <span className='font-medium max-sm:text-[10px]'>{item.dep}</span>
                             </div>
                             <div className='md:mt-3'>
                                 <span className='font-medium max-sm:hidden'>{item?.dep1}</span>
                             </div>
-                            <div className='flex flex-col mt-5 text-[10px]'>
+                            <div className='flex flex-col mt-5 max-sm:text-[10px]'>
                                 <span className='font-bold'>{item.name}</span>
                                 <span className='font-bold text-gray-600'>{item.work}</span>
                             </div>

@@ -46,9 +46,9 @@ const Blog = () => {
                                             <span className='md:text-2xl font-bold'>How To Start Using Banko For Your Startup</span>
                                         </div>
                                         <div className='pt-2 font-medium'>
-                                            <span className='md:text-2xl text-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.</span>
+                                            <span className='md:text-1xl text-[15px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui accumsan sit amet nulla facilisi morbi.</span>
                                         </div>
-                                        <div className='flex gap-3 pt-5 font-bold text-[11px]'>
+                                        <div className='flex gap-3 pt-5 font-bold  max-sm:text-[11px]'>
                                             <span>Product</span>
                                             <span>Technology</span>
                                         </div>
