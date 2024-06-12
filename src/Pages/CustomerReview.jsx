@@ -43,6 +43,18 @@ const CustomerReview = () => {
             name: "Dianne Russell",
             work: "Medical Assistant"
         },
+        {
+            title: "Etiam accumsan porta neque eros",
+            dep: "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. ",
+            name: "Dianne Russell",
+            work: "Medical Assistant"
+        },
+        {
+            title: "Etiam accumsan porta neque eros",
+            dep: "Nulla Lorem mollit cupidatat irure. Laborum magna nulla duis ullamco cillum dolor. Voluptate exercitation incididunt aliquip deserunt reprehenderit elit laborum. ",
+            name: "Dianne Russell",
+            work: "Medical Assistant"
+        },
     ]
 
     return (
@@ -63,7 +75,7 @@ const CustomerReview = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-3 max-sm:grid-cols-2 gap-4  mt-4 p-1'>
+            <div className='grid grid-cols-3 lg:grid-cols-4 max-sm:grid-cols-2 gap-4  mt-4 p-1'>
                 {data.map((item, index) => (
                     <div key={index} className='border border-gray-300 rounded-lg md:w-[314.67px] md:p-4 p-2 md:h-[380px]' >
                         <div>

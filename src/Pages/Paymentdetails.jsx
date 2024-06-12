@@ -566,21 +566,25 @@ const Paymentdetails = () => {
     const containerRef = useRef(null);
 
     useEffect(() => {
-        const interval = setInterval(() => {
-            if (containerRef.current) {
-                containerRef.current.scrollTo({
-                    top: containerRef.current.scrollTop + 3, // Adjust scrolling speed as needed
+        const scrollContainer = containerRef.current;
+
+        const scrollContent = () => {
+            if (scrollContainer) {
+                scrollContainer.scrollTo({
+                    top: scrollContainer.scrollTop + 3, // Adjust scrolling speed as needed
                     behavior: 'smooth',
                 });
 
                 if (
-                    containerRef.current.scrollTop >=
-                    containerRef.current.scrollHeight - containerRef.current.clientHeight
+                    scrollContainer.scrollTop >=
+                    scrollContainer.scrollHeight - scrollContainer.clientHeight
                 ) {
-                    containerRef.current.scrollTop = 0;
+                    scrollContainer.scrollTop = 0;
                 }
             }
-        }, 50); // Adjust scrolling interval as needed
+        };
+
+        const interval = setInterval(scrollContent, 50); // Adjust scrolling interval as needed
 
         return () => clearInterval(interval);
     }, []);
