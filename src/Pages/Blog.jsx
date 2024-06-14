@@ -1,10 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FaLongArrowAltRight } from "react-icons/fa";
 import img1 from "../assets/cardimge/image (3).png"
 import img2 from "../assets/cardimge/dusan-jovic-2V4Qhq55maY-unsplash 1.png"
 import img3 from "../assets/cardimge/towfiqu-barbhuiya-tbwOzgQYeSw-unsplash 1.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Blog = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
 
     const cards = [
         {
@@ -37,7 +42,7 @@ const Blog = () => {
                     cards.map((item) => {
                         return (
                             <div>
-                                <div className='  md:p-2 '>
+                                <div className='  md:p-2 ' data-aos="flip-left">
                                     <div>
                                         <img className=' rounded-lg ' src={item.img} alt="" />
                                     </div>

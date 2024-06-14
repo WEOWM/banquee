@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import ri from '../assets/barge/ri_flashlight-line.png';
 import barge from '../assets/barge/badge.png'
 import mb from '../assets/barge/ri_smartphone-line.png';
@@ -6,8 +6,15 @@ import chate from '../assets/barge/ri_line-chart-line.png';
 import bank from '../assets/barge/ri_bank-card-2-line.png';
 import wifi from '../assets/barge/ri_wifi-line.png';
 import mobilescreen from "../assets/mobile/app.svg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Bannertwo = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
+
     const card = [
         {
             img: ri,
@@ -53,7 +60,7 @@ const Bannertwo = () => {
                             {
                                 card.map((item) => {
                                     return (
-                                        <div>
+                                        <div data-aos="zoom-out">
                                             <div className='h-auto  border border-gray-200 md:p-10 p-2 rounded-lg'>
                                                 <div>
                                                     <div className='w-10 h-10 rounded-full bg-[#E8E8E8] flex justify-center items-center'>
