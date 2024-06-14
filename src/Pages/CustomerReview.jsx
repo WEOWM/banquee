@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import star from '../assets/star/badge.svg'
 import rating from '../assets/star/rating.png'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const CustomerReview = () => {
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, []);
     const data = [
         {
             title: "Sunt qui esse pariatur duis deserunt mollit ",
@@ -77,7 +81,7 @@ const CustomerReview = () => {
 
             <div className='grid grid-cols-3 lg:grid-cols-4 max-sm:grid-cols-2 gap-4  mt-4 p-1'>
                 {data.map((item, index) => (
-                    <div key={index} className='border border-gray-300 rounded-lg md:w-[314.67px] md:p-4 p-2 md:h-[380px]' >
+                    <div key={index} className='border border-gray-300 rounded-lg md:w-[314.67px] md:p-4 p-2 md:h-[380px]' data-aos="fade-up">
                         <div>
                             <img src={rating} alt="" />
                         </div>

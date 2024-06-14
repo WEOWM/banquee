@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+
 @keyframes boull {
     0%, 100% {
         transform: translateY(8%);

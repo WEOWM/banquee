@@ -56,8 +56,6 @@ const FAQ = () => {
                                     <span className='text-xl font-semibold text-[11px]'>{item.numb}</span>
                                     <span className='text-gray-500 font-bold text-[10px]'>{item.title}</span>
                                 </div>
-
-
                             </div>
                         )
                     })
@@ -66,7 +64,6 @@ const FAQ = () => {
                     <span className='text-[#5BB5A2] max-sm:text-[13px]'>Support</span>
                     <span className='pt-1 text-[#5BB5A2]'><FaLongArrowAltRight /></span>
                 </div>
-
             </div>
 
             <div>
